@@ -1,0 +1,19 @@
+package com.bascal.java;
+
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String args[]) {
+     Scanner sc = new Scanner(System.in);
+          System.out.println("Enter 1st value:");
+     String input1=sc.nextLine();
+     double x=Double.parseDouble(input1);
+     
+     System.out.println("Enter 2nd value:");
+     String input2=sc.nextLine();
+     double y=Double.parseDouble(input2);
+     
+     double result=x+y;
+      System.out.println("Sum= " +result);
+    }
+}
